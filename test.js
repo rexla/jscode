@@ -1,8 +1,8 @@
-let welcomeEl = document.getElementById("welcome-el")
+let homeStay = {
+    isHotel: false,
+    name: "wo house",
+    price: 1003,
+    locationAt: ["taiwan", "hualien", "cheap"]
+}
 
-let name = "Rex Chang"
-let greeting = "Welcome back "
-
-welcomeEl.innerText = greeting + name
-
-welcomeEl.innerText += "👋"
+console.log(homeStay.locationAt)
