@@ -1,8 +1,5 @@
-let homeStay = {
-    isHotel: false,
-    name: "wo house",
-    price: 1003,
-    locationAt: ["taiwan", "hualien", "cheap"]
+function getFirst([name]) {
+    return [name]
 }
 
-console.log(homeStay.locationAt)
+console.log( getFirst("om") )
